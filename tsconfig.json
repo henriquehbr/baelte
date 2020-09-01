@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "commonjs",
+    "outDir": "lib",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "resolveJsonModule": true,
+    "baseUrl": "./src",
+    "typeRoots": ["./node_modules/@types", "./src/typings"],
+    "paths": {
+      "*": ["*"]
+    },
+    "plugins": [{ "transform": "typescript-transform-paths" }]
+  }
+}
