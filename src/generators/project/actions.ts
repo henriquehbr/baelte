@@ -10,6 +10,40 @@ export const componentGeneratorActions: DynamicActionsFunction = ({
   const PROJECT_PATH = (...filePath: string[]) => path.resolve(process.cwd(), name, ...filePath),
     TEMPLATES_PATH = (...filePath: string[]) =>
       path.resolve(__dirname, '..', '..', 'templates', ...filePath)
+
+  const packageJsonScripts =
+    bundler === 'rollup'
+      ? {
+          dev: 'rollup -cw',
+          build: 'rollup -c'
+        }
+      : {
+          dev: 'webpack-dev-server --content-base public',
+          build: 'cross-env NODE_ENV=production webpack'
+        }
+
+  const dependenciesToInstall =
+    bundler === 'rollup'
+      ? [
+          '@rollup/plugin-alias',
+          '@rollup/plugin-commonjs',
+          '@rollup/plugin-node-resolve',
+          'rollup-plugin-livereload',
+          'rollup-plugin-serve',
+          'rollup-plugin-svelte',
+          'rollup-plugin-terser'
+        ]
+      : [
+          'css-loader',
+          'mini-css-extract-plugin',
+          'serve',
+          'style-loader',
+          'svelte-loader',
+          'webpack',
+          'webpack-cli',
+          'webpack-dev-server'
+        ]
+
   return [
     {
       type: 'addMany',
@@ -38,29 +72,16 @@ export const componentGeneratorActions: DynamicActionsFunction = ({
         new Promise(resolve => {
           const packageJsonPath = PROJECT_PATH('package.json'),
             packageJson = editJsonFile(packageJsonPath, { autosave: true })
-          packageJson.set('scripts', {
-            start: 'rollup -cw',
-            build: 'rollup -c'
-          })
+          packageJson.set('scripts', packageJsonScripts)
           packageJson.set('main', './src/index.js')
-          resolve(JSON.stringify(packageJson.get()))
+          resolve(JSON.stringify(packageJson.get(), null, 2))
         })
     },
     {
       type: 'install-deps',
       path: PROJECT_PATH(),
       packageManager,
-      devDependencies: [
-        'rollup',
-        'svelte',
-        '@rollup/plugin-alias',
-        '@rollup/plugin-commonjs',
-        '@rollup/plugin-node-resolve',
-        'rollup-plugin-livereload',
-        'rollup-plugin-serve',
-        'rollup-plugin-svelte',
-        'rollup-plugin-terser'
-      ]
+      devDependencies: ['svelte', 'rollup', ...dependenciesToInstall]
     }
   ]
 }

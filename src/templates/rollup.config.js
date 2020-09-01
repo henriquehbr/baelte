@@ -36,7 +36,10 @@ export default {
         styles: path.resolve(__dirname, 'src', 'styles')
       }
     }),
-    serve('public'),
+    serve({
+      contentBase: 'public',
+      port: 8080
+    }),
     !production && livereload('public'),
     production && terser()
   ],
