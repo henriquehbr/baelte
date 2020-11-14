@@ -1,6 +1,6 @@
 {
   "name": "baelte-cli",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "main": "./lib/index.js",
   "author": "Henrique Borges <henriqueborgeshbr@gmail.com>",
   "license": "MIT",
