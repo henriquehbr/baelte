@@ -14,7 +14,6 @@
 		"changelog": "auto-changelog -l false --hide-credit",
 		"postchangelog": "git add CHANGELOG.md",
     "amend-changelog": "cross-env HUSKY_SKIP_HOOKS=1 git commit --amend --no-edit --no-verify",
-
     "clean-build": "rimraf lib",
     "copy-templates": "copyfiles -u 1 ./src/templates/**/* ./lib",
     "replace-plopfile-ext": "replace-in-file /\\.ts/g .js lib/*.js --isRegex",

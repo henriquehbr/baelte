@@ -4,7 +4,8 @@ All notable changes to this project will be documented in this file. Dates are d
 
 #### [Unreleased](https://github.com/henriquehbr/baelte/compare/v0.3.1...HEAD)
 
-- chore: implement automated changelog generation [`023827e`](https://github.com/henriquehbr/baelte/commit/023827e00b344f82c6abcfad75a595d30f79c641)
+- chore: implement automated changelog generation [`01345ff`](https://github.com/henriquehbr/baelte/commit/01345ff1013fb39ba20007b78280090198a4e27e)
+- docs: add notice about project instability [`485561a`](https://github.com/henriquehbr/baelte/commit/485561a5f69f610bb4aba50b721d4b7e54369072)
 
 #### [v0.3.1](https://github.com/henriquehbr/baelte/compare/v0.3.0...v0.3.1)
 
