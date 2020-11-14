@@ -36,25 +36,25 @@
   "devDependencies": {
     "@types/cross-spawn": "^6.0.2",
     "@types/edit-json-file": "^1.4.0",
-    "@types/eslint": "^7.2.1",
+    "@types/eslint": "^7.2.4",
     "@types/inquirer": "^7.3.1",
-    "@types/node": "^14.6.0",
+    "@types/node": "^14.14.7",
     "auto-changelog": "^2.2.1",
-    "copyfiles": "^2.3.0",
+    "copyfiles": "^2.4.0",
     "cross-env": "^7.0.2",
-    "eslint": "^7.7.0",
+    "eslint": "^7.13.0",
     "husky": "^4.3.0",
     "replace-in-file": "^6.1.0",
     "rimraf": "^3.0.2",
     "ts-node": "^9.0.0",
     "tsconfig-paths": "^3.9.0",
-    "ttypescript": "^1.5.11",
-    "typescript": "3.9.2",
-    "typescript-transform-paths": "^2.0.0"
+    "ttypescript": "^1.5.12",
+    "typescript": "4.0.5",
+    "typescript-transform-paths": "^2.0.2"
   },
   "dependencies": {
     "cross-spawn": "^7.0.3",
-    "edit-json-file": "^1.4.1",
+    "edit-json-file": "^1.5.0",
     "plop": "^2.7.4",
     "plop-pack-git-init": "^0.3.1"
   }
