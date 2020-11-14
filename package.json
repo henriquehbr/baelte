@@ -7,10 +7,10 @@
   "preferGlobal": true,
   "scripts": {
     "clean-build": "rimraf lib",
-    "copy-templates": "copyfiles -f src/templates/*.hbs lib/templates",
-    "replace-plopfile-ext": "replace-in-file .ts .js lib/*.js",
+    "copy-templates": "copyfiles -u 1 ./src/templates/**/* ./lib",
+    "replace-plopfile-ext": "replace-in-file /\\.ts/g .js lib/*.js --isRegex",
     "start": "node lib",
-    "dev": "rimraf a && ts-node -r tsconfig-paths/register src",
+    "dev": "ts-node -r tsconfig-paths/register src",
     "prebuild": "yarn clean-build",
     "build": "ttsc",
     "postbuild": "yarn copy-templates && yarn replace-plopfile-ext"

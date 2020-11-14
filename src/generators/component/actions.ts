@@ -17,8 +17,8 @@ const TEMPLATES_PATH = path.resolve(__dirname, '../../templates')
 
 export const componentGeneratorActions: ActionConfig = [
   {
-    'type': 'add',
-    'path': '{{path}}/{{name}}.svelte',
-    'templateFile': `${TEMPLATES_PATH}/component.hbs`
+    type: 'add',
+    path: '{{path}}/{{name}}.svelte',
+    templateFile: `${TEMPLATES_PATH}/Component.svelte`
   }
 ]

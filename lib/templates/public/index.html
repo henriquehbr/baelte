@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <meta
+      name="description"
+      content="A simple structure with Svelte and {{ sentenceCase bundler }} to quickly get started with your projects"
+    />
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="{{name}}" />
+    <meta
+      itemprop="description"
+      content="A simple structure with Svelte and {{ sentenceCase bundler }} to quickly get started with your projects"
+    />
+    <!-- Facebook Meta Tags (includes Twitter, LinkedIn and other social media) -->
+    <meta property="og:url" content="" />
+    <meta property="og:type" content="{{name}}" />
+    <meta property="og:title" content="" />
+    <meta
+      property="og:description"
+      content="A simple structure with Svelte and {{ sentenceCase bundler }} to quickly get started with your projects"
+    />
+    <!-- Set browser chrome theme color here -->
+    <meta name="theme-color" content="#ff3e00" />
+    <title>{{name}}</title>
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="build/bundle.css" />
+  </head>
+
+  <body>
+    <noscript>
+      <div>Oops! JavaScript is required here! Allow it and try again!</div>
+    </noscript>
+    <script type="module" defer src="build/index.js"></script>
+  </body>
+</html>
