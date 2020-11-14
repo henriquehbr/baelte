@@ -2,10 +2,10 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
-#### [Unreleased](https://github.com/henriquehbr/baelte/compare/v0.3.1...HEAD)
+#### [v0.3.2](https://github.com/henriquehbr/baelte/compare/v0.3.1...v0.3.2)
 
 - chore: implement automated changelog generation [`01345ff`](https://github.com/henriquehbr/baelte/commit/01345ff1013fb39ba20007b78280090198a4e27e)
-- chore: bump dependencies [`e40cd66`](https://github.com/henriquehbr/baelte/commit/e40cd66bca3f29888e005089fb35dd28401b77fe)
+- chore: bump dependencies [`22869b3`](https://github.com/henriquehbr/baelte/commit/22869b3df26c820e01f9b6587fe8b27e044617f8)
 - docs: add notice about project instability [`505bd7b`](https://github.com/henriquehbr/baelte/commit/505bd7b078220cf24ecd29deb109231adeead4ca)
 
 #### [v0.3.1](https://github.com/henriquehbr/baelte/compare/v0.3.0...v0.3.1)

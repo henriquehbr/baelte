@@ -1,18 +1,18 @@
 {
   "name": "baelte-cli",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "main": "./lib/index.js",
   "author": "Henrique Borges <henriqueborgeshbr@gmail.com>",
   "license": "MIT",
   "preferGlobal": true,
   "scripts": {
     "bump:patch": "cross-env HUSKY_SKIP_HOOKS=1 yarn version --patch",
-		"bump:minor": "cross-env HUSKY_SKIP_HOOKS=1 yarn version --minor",
-		"bump:major": "cross-env HUSKY_SKIP_HOOKS=1 yarn version --major",
-		"version": "yarn changelog -p",
-		"postversion": "yes \"\" | yarn publish",
-		"changelog": "auto-changelog -l false --hide-credit",
-		"postchangelog": "git add CHANGELOG.md",
+    "bump:minor": "cross-env HUSKY_SKIP_HOOKS=1 yarn version --minor",
+    "bump:major": "cross-env HUSKY_SKIP_HOOKS=1 yarn version --major",
+    "version": "yarn changelog -p",
+    "postversion": "yes \"\" | yarn publish",
+    "changelog": "auto-changelog -l false --hide-credit",
+    "postchangelog": "git add CHANGELOG.md",
     "amend-changelog": "cross-env HUSKY_SKIP_HOOKS=1 git commit --amend --no-edit --no-verify",
     "clean-build": "rimraf lib",
     "copy-templates": "copyfiles -u 1 ./src/templates/**/* ./lib",
@@ -27,12 +27,12 @@
     "baelte": "./lib/index.js"
   },
   "husky": {
-		"hooks": {
-			"pre-commit": "yarn build && git add .",
-			"post-commit": "yarn changelog -u && yarn amend-changelog",
-			"pre-push": "cross-env HUSKY_SKIP_HOOKS=1 git push --tags"
-		}
-	},
+    "hooks": {
+      "pre-commit": "yarn build && git add .",
+      "post-commit": "yarn changelog -u && yarn amend-changelog",
+      "pre-push": "cross-env HUSKY_SKIP_HOOKS=1 git push --tags"
+    }
+  },
   "devDependencies": {
     "@types/cross-spawn": "^6.0.2",
     "@types/edit-json-file": "^1.4.0",
