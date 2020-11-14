@@ -18,13 +18,14 @@ export const componentGeneratorActions: DynamicActionsFunction = ({
           build: 'rollup -c'
         }
       : {
-          dev: 'webpack-dev-server --content-base public',
+          dev: 'webpack serve',
           build: 'cross-env NODE_ENV=production webpack'
         }
 
-  const dependenciesToInstall =
+  const devDependenciesToInstall =
     bundler === 'rollup'
       ? [
+          'cross-env',
           '@rollup/plugin-alias',
           '@rollup/plugin-commonjs',
           '@rollup/plugin-node-resolve',
@@ -35,6 +36,7 @@ export const componentGeneratorActions: DynamicActionsFunction = ({
         ]
       : [
           'css-loader',
+          'cross-env',
           'mini-css-extract-plugin',
           'serve',
           'style-loader',
@@ -81,7 +83,7 @@ export const componentGeneratorActions: DynamicActionsFunction = ({
       type: 'install-deps',
       path: PROJECT_PATH(),
       packageManager,
-      devDependencies: ['svelte', 'rollup', ...dependenciesToInstall]
+      devDependencies: ['svelte', 'rollup', ...devDependenciesToInstall]
     }
   ]
 }

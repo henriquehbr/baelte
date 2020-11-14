@@ -4,6 +4,7 @@ const path = require('path')
 const mode = process.env.NODE_ENV || 'development'
 const prod = mode === 'production'
 
+/** @type {import('webpack').Configuration} */
 module.exports = {
   entry: {
     index: ['./src/index.js']
@@ -24,11 +25,16 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /node_modules\/svelte\/.*\.mjs$/,
+        resolve: {
+          fullySpecified: false // load Svelte correctly
+        }
+      },
+      {
         test: /\.svelte$/,
         use: {
           loader: 'svelte-loader',
           options: {
-            emitCss: true,
             hotReload: true
           }
         }
@@ -52,5 +58,8 @@ module.exports = {
       filename: '[name].css'
     })
   ],
-  devtool: prod ? false : 'source-map'
+  devtool: prod ? false : 'source-map',
+  devServer: {
+    contentBase: './public'
+  }
 }
