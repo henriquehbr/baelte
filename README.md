@@ -23,3 +23,14 @@ baelte/
 - `templates` - Essential building block of actions, together, they determine the output of generators
 - `index.ts` - Initialize `plop.js`
 - `plopfile` - Register the generators to be used by the CLI
+
+### Command-line usage
+
+```
+Usage:
+  baelte <generator> <prompt answers>
+
+baelte generators:
+  component   Create a single Svelte component
+  project     Create a minimal, fully working Svelte application
+```

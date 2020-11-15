@@ -10,6 +10,6 @@ export default (plop: NodePlopAPI) => {
     },
     false
   )
-  plop.setGenerator('Project', projectGenerator)
-  plop.setGenerator('Component', componentGenerator)
+  plop.setGenerator('project', projectGenerator)
+  plop.setGenerator('component', componentGenerator)
 }

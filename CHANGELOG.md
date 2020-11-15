@@ -4,7 +4,8 @@ All notable changes to this project will be documented in this file. Dates are d
 
 #### [Unreleased](https://github.com/henriquehbr/baelte/compare/v0.3.2...HEAD)
 
-- docs: add section about project structure [`e4ace1f`](https://github.com/henriquehbr/baelte/commit/e4ace1fe1fa439b1a20d9f177234270e01e2fa0f)
+- docs: add section about project structure [`0c9f43d`](https://github.com/henriquehbr/baelte/commit/0c9f43dddd192fb1d57334d5183a397ee1fe9f13)
+- docs: add section about command-line usage [`68736b6`](https://github.com/henriquehbr/baelte/commit/68736b67a346aa33ff3536642b8aa2b4b3855d7a)
 
 #### [v0.3.2](https://github.com/henriquehbr/baelte/compare/v0.3.1...v0.3.2)
 
