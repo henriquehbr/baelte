@@ -2,7 +2,13 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
+#### [Unreleased](https://github.com/henriquehbr/baelte/compare/v0.3.2...HEAD)
+
+- docs: add section about project structure [`e4ace1f`](https://github.com/henriquehbr/baelte/commit/e4ace1fe1fa439b1a20d9f177234270e01e2fa0f)
+
 #### [v0.3.2](https://github.com/henriquehbr/baelte/compare/v0.3.1...v0.3.2)
+
+> 14 November 2020
 
 - chore: implement automated changelog generation [`01345ff`](https://github.com/henriquehbr/baelte/commit/01345ff1013fb39ba20007b78280090198a4e27e)
 - chore: bump dependencies [`22869b3`](https://github.com/henriquehbr/baelte/commit/22869b3df26c820e01f9b6587fe8b27e044617f8)
