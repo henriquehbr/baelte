@@ -4,8 +4,9 @@ All notable changes to this project will be documented in this file. Dates are d
 
 #### [Unreleased](https://github.com/henriquehbr/baelte/compare/v0.3.2...HEAD)
 
+- lint: setup eslint-config-hbr [`0141d0c`](https://github.com/henriquehbr/baelte/commit/0141d0cabb623aa27650e9339c4359eacfe5d754)
 - docs: add section about project structure [`0c9f43d`](https://github.com/henriquehbr/baelte/commit/0c9f43dddd192fb1d57334d5183a397ee1fe9f13)
-- docs: add section about command-line usage [`68736b6`](https://github.com/henriquehbr/baelte/commit/68736b67a346aa33ff3536642b8aa2b4b3855d7a)
+- docs: add section about command-line usage [`7907120`](https://github.com/henriquehbr/baelte/commit/7907120b818e53969917832a87546a16de12f1ef)
 
 #### [v0.3.2](https://github.com/henriquehbr/baelte/compare/v0.3.1...v0.3.2)
 

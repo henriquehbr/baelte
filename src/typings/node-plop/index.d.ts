@@ -3,7 +3,7 @@ import { ActionConfig, NodePlopAPI } from 'node-plop'
 
 declare module 'node-plop' {
   interface NodePlopAPI {
-    setActionType(name: string, fn: _CustomActionFunction): void
+    setActionType(name: string, function_: _CustomActionFunction): void
   }
 
   interface ActionConfig {
