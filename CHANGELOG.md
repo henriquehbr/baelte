@@ -4,7 +4,8 @@ All notable changes to this project will be documented in this file. Dates are d
 
 #### [Unreleased](https://github.com/henriquehbr/baelte/compare/v0.3.3...HEAD)
 
-- chore: stage only "lib" directory after build [`9320fc4`](https://github.com/henriquehbr/baelte/commit/9320fc49e6bcef31afbb123df635ecfef30ca499)
+- fix: add shebang [`572a9e2`](https://github.com/henriquehbr/baelte/commit/572a9e25999080f772fe5d3d0ed681e22394345b)
+- chore: stage only "lib" directory after build [`51fe2ec`](https://github.com/henriquehbr/baelte/commit/51fe2ec898470d112e0b11ce8d9398f789eb4728)
 
 #### [v0.3.3](https://github.com/henriquehbr/baelte/compare/v0.3.2...v0.3.3)
 

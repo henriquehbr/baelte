@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import path from 'path'
 import { Plop, run } from 'plop'
 
@@ -11,12 +12,13 @@ Plop.launch(
     require: argv.require,
     completion: argv.completion
   },
-  environment => run(
-    {
-      ...environment,
-      cwd: process.cwd()
-    },
-    undefined,
-    true
-  )
+  environment =>
+    run(
+      {
+        ...environment,
+        cwd: process.cwd()
+      },
+      undefined,
+      true
+    )
 )
