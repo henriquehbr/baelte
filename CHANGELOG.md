@@ -2,7 +2,13 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
+#### [Unreleased](https://github.com/henriquehbr/baelte/compare/v0.3.3...HEAD)
+
+- chore: stage only "lib" directory after build [`9320fc4`](https://github.com/henriquehbr/baelte/commit/9320fc49e6bcef31afbb123df635ecfef30ca499)
+
 #### [v0.3.3](https://github.com/henriquehbr/baelte/compare/v0.3.2...v0.3.3)
+
+> 27 November 2020
 
 - lint: setup eslint-config-hbr [`82af64f`](https://github.com/henriquehbr/baelte/commit/82af64fe37faf276a1e024e944c338ca1beafde2)
 - chore: bump dependencies [`b333631`](https://github.com/henriquehbr/baelte/commit/b333631ce184c46701a529d7fcf8b373844d99c5)
