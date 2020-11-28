@@ -2,11 +2,11 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
-#### [Unreleased](https://github.com/henriquehbr/baelte/compare/v0.3.2...HEAD)
+#### [v0.3.3](https://github.com/henriquehbr/baelte/compare/v0.3.2...v0.3.3)
 
 - lint: setup eslint-config-hbr [`82af64f`](https://github.com/henriquehbr/baelte/commit/82af64fe37faf276a1e024e944c338ca1beafde2)
 - chore: bump dependencies [`b333631`](https://github.com/henriquehbr/baelte/commit/b333631ce184c46701a529d7fcf8b373844d99c5)
-- fix: add rollup-plugin-css-only for styles extraction [`1fd857a`](https://github.com/henriquehbr/baelte/commit/1fd857ac19dd569da6f0760ef4d49ab7f4d402d7)
+- fix: add rollup-plugin-css-only for styles extraction [`8e733ad`](https://github.com/henriquehbr/baelte/commit/8e733ad2230b4830bc7dca00e1a21335cbb7a498)
 - docs: add section about project structure [`0c9f43d`](https://github.com/henriquehbr/baelte/commit/0c9f43dddd192fb1d57334d5183a397ee1fe9f13)
 - docs: add section about command-line usage [`7907120`](https://github.com/henriquehbr/baelte/commit/7907120b818e53969917832a87546a16de12f1ef)
 
