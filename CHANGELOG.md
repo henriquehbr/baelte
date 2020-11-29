@@ -4,7 +4,8 @@ All notable changes to this project will be documented in this file. Dates are d
 
 #### [Unreleased](https://github.com/henriquehbr/baelte/compare/v0.3.4...HEAD)
 
-- refactor: convert actions names to pascal case [`2e7c409`](https://github.com/henriquehbr/baelte/commit/2e7c409baca8aa61b1a8cf89e13e9602837de33a)
+- refactor: create barrel file for actions [`d49f946`](https://github.com/henriquehbr/baelte/commit/d49f9465efdcfdf0d03cb84fb50ce1ad2fd8e2f4)
+- refactor: convert actions names to pascal case [`a8e825c`](https://github.com/henriquehbr/baelte/commit/a8e825c6ffba36578f6878f0ef300644b86c544c)
 
 #### [v0.3.4](https://github.com/henriquehbr/baelte/compare/v0.3.3...v0.3.4)
 
