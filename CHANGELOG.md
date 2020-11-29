@@ -2,7 +2,13 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
+#### [Unreleased](https://github.com/henriquehbr/baelte/compare/v0.3.4...HEAD)
+
+- refactor: convert actions names to pascal case [`2e7c409`](https://github.com/henriquehbr/baelte/commit/2e7c409baca8aa61b1a8cf89e13e9602837de33a)
+
 #### [v0.3.4](https://github.com/henriquehbr/baelte/compare/v0.3.3...v0.3.4)
+
+> 28 November 2020
 
 - fix: add shebang [`03691c8`](https://github.com/henriquehbr/baelte/commit/03691c8404a71cf3595fa163fb6a6963a5f41869)
 - chore: stage only "lib" directory after build [`51fe2ec`](https://github.com/henriquehbr/baelte/commit/51fe2ec898470d112e0b11ce8d9398f789eb4728)
