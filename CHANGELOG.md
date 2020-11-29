@@ -4,7 +4,8 @@ All notable changes to this project will be documented in this file. Dates are d
 
 #### [Unreleased](https://github.com/henriquehbr/baelte/compare/v0.3.4...HEAD)
 
-- refactor: create barrel file for actions [`d49f946`](https://github.com/henriquehbr/baelte/commit/d49f9465efdcfdf0d03cb84fb50ce1ad2fd8e2f4)
+- chore: add saofile [`a5d1cd4`](https://github.com/henriquehbr/baelte/commit/a5d1cd4a158dff065947299b9c9d30f9b27bb0a1)
+- refactor: create barrel file for actions [`893c162`](https://github.com/henriquehbr/baelte/commit/893c162578128b4344da131d03c841e3d936e191)
 - refactor: convert actions names to pascal case [`a8e825c`](https://github.com/henriquehbr/baelte/commit/a8e825c6ffba36578f6878f0ef300644b86c544c)
 
 #### [v0.3.4](https://github.com/henriquehbr/baelte/compare/v0.3.3...v0.3.4)
