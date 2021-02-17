@@ -2,7 +2,15 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
+#### [Unreleased](https://github.com/henriquehbr/baelte/compare/v0.3.4...HEAD)
+
+- chore: add saofile [`a5d1cd4`](https://github.com/henriquehbr/baelte/commit/a5d1cd4a158dff065947299b9c9d30f9b27bb0a1)
+- refactor: create barrel file for actions [`893c162`](https://github.com/henriquehbr/baelte/commit/893c162578128b4344da131d03c841e3d936e191)
+- refactor: convert actions names to pascal case [`a8e825c`](https://github.com/henriquehbr/baelte/commit/a8e825c6ffba36578f6878f0ef300644b86c544c)
+
 #### [v0.3.4](https://github.com/henriquehbr/baelte/compare/v0.3.3...v0.3.4)
+
+> 28 November 2020
 
 - fix: add shebang [`03691c8`](https://github.com/henriquehbr/baelte/commit/03691c8404a71cf3595fa163fb6a6963a5f41869)
 - chore: stage only "lib" directory after build [`51fe2ec`](https://github.com/henriquehbr/baelte/commit/51fe2ec898470d112e0b11ce8d9398f789eb4728)
